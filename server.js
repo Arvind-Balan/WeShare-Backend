@@ -41,7 +41,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: ["https://hash-tags.netlify.app", "http://localhost:3000"],
+    origin: ["https://weesharee.netlify.app", "http://localhost:3000"],
   },
 });
 
